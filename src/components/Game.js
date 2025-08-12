@@ -3,7 +3,7 @@ import socketIOClient from 'socket.io-client';
 import Board from './Board';
 import './Game.css';
 
-const ENDPOINT = 'http://localhost:4000';
+const ENDPOINT = 'https://bingo-app-fwac.onrender.com';
 
 const Game = () => {
   const [gameState, setGameState] = useState(null);
